@@ -6,23 +6,23 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Fabricio Arend Torres
+title: Machine Learning - PhD Student
+email: fabricio.arendtorres@gmail.company
+website: https://fabricioarendtorres.github.io/
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+#twitter_username: facespics
+github_username:  FabricioArendTorres
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+#instagram_username: jameswgrant
+linkedin_username: fabricio-arend-torres
 # xing_username: jekyll
 # pinterest_username: jekyll
 youtube_username: globalmtb
@@ -30,10 +30,10 @@ youtube_username: globalmtb
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,9 +48,24 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, I'm Fabricio, a Computer Scientist focusing on the area of Machine Learning and general Data Science.
+  I'm currently a PhD Student at the University of Basel, where I'm researching ways to model different kinds of ornithological data - ranging from radar sensor data to bird-observations obtain from citizen-science portals.
+  
+  Within Machine Learning my interest lie in Gaussian Processes, Density Estimation (including deep generative models), and Implicit Representation Networks.
+  I'm further involved in mentoring Bachelor's and Master's theses and assist in the 'Scientific Computing' lecture held at the University of Basel. 
+  Finally, I regularly review submitted papers for some of the major ML Conferences (NeurIPS, ICML, ICLR).
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  In more practical terms I have worked quite a bit with common Machine Learning and Data Science frameworks, most notably Tensorflow 2.* & Pytorch and derivative libraries for scalable Gaussian Process (GPflow, GPytorch).
+  Aside from that, I'm comfortable with the more general python scientific stack (numpy, scipy, pandas, scikit-learn, ...) and have some experience in processing geo-data as well as working with (PostgreSQL) Databases.
+  While there is a wide range of frameworks and languages I haven't worked with, I'm always happy to delve into new technologies and frameworks.
+
+  A more complete list of programming languages, frameworks and tools I've worked with:
+  - Programming languages: <mark>Python</mark> (most skilled), <mark>R</mark>(basic), <mark>Javascript</mark>(basic) 
+  - Deep Learning: <mark>Tensorflow 1.* & 2.*</mark>  <mark>Pytorch</mark>
+  - Gaussian Processes: <mark>GPflow</mark>, <mark>GPytorch</mark>
+  - Exploratory Data Analysis & Preprocessing: <mark>Python Scientific Stack</mark>
+  - Data Extraction: <mark>pandas</mark>, <mark>SQL</mark>, <mark>Google Earth Engine</mark>
+  - Workflow: <mark>conda/virtual environments</mark>, <mark>git</mark>, <mark>linux</mark>, <mark>SLURM</mark>
 
 content:
   - title: Projects # Title for the section
