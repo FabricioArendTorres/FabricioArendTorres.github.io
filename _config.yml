@@ -46,7 +46,7 @@ youtube_username: globalmtb
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/fabricio.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, I'm Fabricio, a Computer Scientist working in the area of Machine Learning and more general Data Science & Statistics.
   I'm currently a PhD Student at the University of Basel, where I'm researching ways to model different kinds of ornithological data.
