@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Fabricio Arend Torres
 title: Machine Learning - PhD Student
-email: fabricio.arendtorres@gmail.company
+email: fabricio.arendtorres@gmail.com
 website: https://fabricioarendtorres.github.io/
 
 # Dark Mode (true/false/never)
@@ -25,7 +25,7 @@ github_username:  FabricioArendTorres
 linkedin_username: fabricio-arend-torres
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
