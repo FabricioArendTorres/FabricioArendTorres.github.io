@@ -48,11 +48,12 @@ youtube_username: globalmtb
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Fabricio, a Computer Scientist focusing on the area of Machine Learning and general Data Science.
-  I'm currently a PhD Student at the University of Basel, where I'm researching ways to model different kinds of ornithological data - ranging from radar sensor data to bird-observations obtain from citizen-science portals.
+  Hi, I'm Fabricio, a Computer Scientist working in the area of Machine Learning and more general Data Science & Statistics.
+  I'm currently a PhD Student at the University of Basel, where I'm researching ways to model different kinds of ornithological data.
+  This ranges from modeling nocturnal migration events based on large-scale radar data to estimating species distribution models of birds based on citizen-science observations.
   
-  Within Machine Learning my interest lie in Gaussian Processes, Density Estimation (including deep generative models), and Implicit Representation Networks.
-  I'm further involved in mentoring Bachelor's and Master's theses and assist in the 'Scientific Computing' lecture held at the University of Basel. 
+  On the methodological side my interest lie in Gaussian Processes, Density Estimation (including deep generative models and flows), and Implicit Representation Networks.
+  Within the University I'm further involved in mentoring Bachelor's and Master's theses and assist in the 'Scientific Computing' lecture held at our department. 
   Finally, I regularly review submitted papers for some of the major ML Conferences (NeurIPS, ICML, ICLR).
 
   In more practical terms I have worked quite a bit with common Machine Learning and Data Science frameworks, most notably Tensorflow 2.* & Pytorch and derivative libraries for scalable Gaussian Process (GPflow, GPytorch).
