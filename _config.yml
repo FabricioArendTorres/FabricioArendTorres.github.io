@@ -48,33 +48,67 @@ linkedin_username: fabricio-arend-torres
 # about_title: About Me
 about_profile_image: images/fabricio.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Fabricio, a Computer Scientist working in the area of Machine Learning and more general Data Science & Statistics.
+  Hi, I'm Fabricio, a Computer Scientist working in the area of Machine Learning, Data Science & Statistics.
   I'm currently a PhD Student at the University of Basel, where I'm researching ways to model different kinds of ornithological data.
-  This ranges from modeling nocturnal migration events based on large-scale radar data to estimating species distribution models of birds based on citizen-science observations.
+  The applications range from modeling migration events based on radar data to estimating species distribution models of birds based on citizen-science observations.
   
-  On the methodological side my interest lie in Gaussian Processes, Density Estimation (including deep generative models and flows), and Implicit Representation Networks.
+  On the methodological side my interest lie in Gaussian Processes, Density Estimation (including deep generative models and generative flows), and Implicit Representation Networks.
   Within the University I'm further involved in mentoring Bachelor's and Master's theses and assist in the 'Scientific Computing' lecture held at our department. 
-  Finally, I regularly review submitted papers for some of the major ML Conferences (NeurIPS, ICML, ICLR).
+  Finally, I regularly review papers for some of the major ML Conferences (NeurIPS, ICML, ICLR).
 
-  In more practical terms I have worked quite a bit with common Machine Learning and Data Science frameworks, most notably Tensorflow 2.* & Pytorch and derivative libraries for scalable Gaussian Process (GPflow, GPytorch).
-  Aside from that, I'm comfortable with the more general python scientific stack (numpy, scipy, pandas, scikit-learn, ...) and have some experience in processing geo-data as well as working with (PostgreSQL) Databases.
-  While there is a wide range of frameworks and languages I haven't worked with, I'm always happy to delve into new technologies and frameworks.
+  In more practical terms I have worked quite a bit with the most common Machine Learning and Data Science frameworks, notable mentions being Tensorflow, Pytorch and libraries for scalable Gaussian Process (GPflow, GPytorch).
+  Aside from that, I'm comfortable with the general scientific stack of libraries within python (numpy, scipy, pandas, scikit-learn, matplotlib).
+  As the work within my projects includes extensive preprocessing and exploratory analysis, I have some experience working with spatiotemporal geo-data and the data formats common within that area.
+  While there is a wide range of frameworks and languages I haven't worked with, I always enjoy delving into new technologies and frameworks.
 
-  A more complete list of programming languages, frameworks and tools I've worked with:
-  - Programming languages: <mark>Python</mark> (most skilled), <mark>R</mark>(basic), <mark>Javascript</mark>(basic) 
-  - Deep Learning: <mark>Tensorflow 1.* & 2.*</mark>  <mark>Pytorch</mark>
-  - Gaussian Processes: <mark>GPflow</mark>, <mark>GPytorch</mark>
-  - Exploratory Data Analysis & Preprocessing: <mark>Python Scientific Stack</mark>
-  - Data Extraction: <mark>pandas</mark>, <mark>SQL</mark>, <mark>Google Earth Engine</mark>
-  - Workflow: <mark>conda/virtual environments</mark>, <mark>git</mark>, <mark>linux</mark>, <mark>SLURM</mark>
+  A more complete list of programming languages, frameworks and tools I've worked with is listed below.
+  The level of familiarity is indicated with stars, ranging from basic concepts (*) to extensive experience (***).
+  - Programming languages: <mark>Python</mark> (***), <mark>R</mark> (*), <mark>Javascript</mark> (*)
+  - Deep / Machine Learning: <mark>Tensorflow</mark>1 (*) & 2 (**).  <mark>Pytorch</mark> (**), <mark>scikit-learn</mark>
+  - Gaussian Processes: <mark>GPflow</mark>(***), <mark>GPytorch</mark>(*)
+  - Exploratory Data Analysis & Preprocessing: <mark>Python Scientific Stack</mark> (**)
+  - Data Extraction: <mark>pandas</mark>(***), <mark>SQL</mark>(**), <mark>Google Earth Engine</mark>(*)
+  - Workflow: <mark>conda/virtenv/pip</mark>(**), <mark>git</mark>(**), <mark>linux</mark>(**), <mark>SLURM</mark>(*)
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Estimating relative abundance of nocturnal migrant species
+        #link: github.com/TODO
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          todo
+        description: | # this will include new lines to allow paragraphs
+          todo
+
+      - layout: top-middle
+        title: Scalable Gaussian Processes for spatio-temporal interpolation of migration events 
+        #link: github.com/TODO
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          todo
+        description: | # this will include new lines to allow paragraphs
+          todo
+
+      - layout: top-middle
+        title: Simulating Stochastic Paths for estimating path-level uncertainty 
+        #link: github.com/TODO
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
@@ -97,10 +131,24 @@ content:
         # link_text: boringcompany.com
         sub_title: PhD Student
         caption: 2019 - Present
-        quote: >
-          todo
         description: | # this will include new lines to allow paragraphs
-            todo
+            Publications:
+            Keller, Sebastian Mathias, Maxim Samarin, Fabricio Arend Torres, Mario Wieser, and Volker Roth. 
+            "Learning extremal representations with deep archetypal analysis." International Journal of Computer Vision 129, no. 4 (2021): 805-820.
+
+            Sebastian M. Keller*, Fabricio Arend Torres*, Maxim Samarin, Mario Wieser and Volker Roth.
+            Exploring Data Through Archetypal Representatives, NeurIPS Learning Meaningful Representations of Life Workshop 2019, Canada. (*equal contribution)
+
+    content:
+      - layout: left
+        title: University of Basel
+        #link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Student Assistant for Biomedical Data Analysis
+        caption: Nov 2016 - Dec 2017
+        description: | # this will include new lines to allow paragraph
+          Assistance in a research project for analysing Next Generation Sequencing Data in context of modeling HIV treatment outcomes.
+          Here I gathered first practical experiences with processing large scale data, aligning genome sequencing data, and general feature engineering.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -109,10 +157,12 @@ content:
         title: University of Basel
         caption: 2016 - 2018
         sub_title: MSc Computer Science with focus on 'Machine Intelligence'
-        quote: >
-          todo
         description: | # this will include new lines to allow paragraphs
-          todo
+          In context of my master's thesis 'Sampling and Annealing for Dependency Subnetwork Estimation' I implemented and extended a model for estimating sparse dependency networks between variables.
+          The model was applied to HIV data for detecting possible connections between resistance-relevant mutations and treatment outcome.
+
+          This project allowed me to get some insight into more classical Bayesian models as well as MCMC sampling schemes.
+
       - layout: left
         title: University of Basel
         caption: 2012 - 2016
